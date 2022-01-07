@@ -7,6 +7,12 @@ import { CartContext } from '../context/index'
 export default function Home() {
   const { helloWorld } = useContext(CartContext)
 
+  const hero = {
+    name: 'Batman',
+    realName: 'Bruce Wayne',
+  }
+  const { name, realName } = hero
+
   return (
     <div>
       <Head>

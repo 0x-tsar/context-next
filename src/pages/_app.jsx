@@ -4,12 +4,6 @@ import React from 'react'
 import { CartProvider } from '../context/index'
 
 function MyApp({ Component, pageProps }) {
-  const foo = function foo(params) {
-    return params
-  }
-
-  console.log(foo)
-
   return (
     <CartProvider>
       <Component {...pageProps} />
